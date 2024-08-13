@@ -3,22 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|c:\\users\\brad\\source\\repos\\nukux_modernui\\modernform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|solutionrelative:modernform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|solutionrelative:modernform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|c:\\users\\brad\\source\\repos\\nukux_modernui\\modernform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|solutionrelative:modernform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|c:\\users\\brad\\source\\repos\\nukux_modernui\\modernform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|solutionrelative:modernform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|NukUX_ModernUI||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|c:\\users\\brad\\source\\repos\\nukux_modernui\\modernform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|solutionrelative:modernform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|c:\\users\\brad\\source\\repos\\nukux_modernui\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -32,8 +32,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "modernForm.cs",
+              "DocumentMoniker": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernForm.cs",
+              "RelativeDocumentMoniker": "modernForm.cs",
+              "ToolTip": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernForm.cs",
+              "RelativeToolTip": "modernForm.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T21:39:16.901Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -53,19 +66,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "modernForm.cs",
-              "DocumentMoniker": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernForm.cs",
-              "RelativeDocumentMoniker": "modernForm.cs",
-              "ToolTip": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernForm.cs",
-              "RelativeToolTip": "modernForm.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAowEsAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T21:39:16.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\Properties\\AssemblyInfo.cs",
@@ -74,8 +74,7 @@
               "RelativeToolTip": "Properties\\AssemblyInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T21:33:05.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T21:33:05.007Z"
             },
             {
               "$type": "Document",
@@ -91,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "modernForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernForm.cs",
               "RelativeDocumentMoniker": "modernForm.cs",

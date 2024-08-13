@@ -20,15 +20,28 @@ namespace NukUX_ModernUI
         {
             InitializeComponent();
             this.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            App_Icon.SizeMode = PictureBoxSizeMode.StretchImage;
             IsMaximized = false;
             // Handle mouse events for dragging the form
             this.MouseDown += App_ControlBar_MouseDown;
             this.MouseMove += App_ControlBar_MouseMove;
             this.MouseUp += App_ControlBar_MouseUp;
+            SetFormCenterScreen();
         }
 
         public FormWindowState WindowState { get; private set; }
 
+        private void SetFormCenterScreen()
+        {
+            // Find the parent form of the UserControl
+            Form parentForm = this.FindForm();
+
+            if (parentForm != null)
+            {
+                // Set the form's start position to center screen
+                parentForm.StartPosition = FormStartPosition.CenterScreen;
+            }
+        }
         private void App_CloseBtn_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -79,6 +92,11 @@ namespace NukUX_ModernUI
             set { App_Title.Text = value; }
         }
 
+        public Image AppIcon
+        {
+            get { return App_Icon.Image; }
+            set { App_Icon.Image = value; }
+        }
 
         private void App_Maximize_Click(object sender, EventArgs e)
         {
@@ -108,8 +126,7 @@ namespace NukUX_ModernUI
 
                     // Update the button text back to Maximize
                     ((Button)sender).Text = "▢";
-                     
-
+                    parentForm.Size = new Size(1133, 636);
                     // Set IsMaximized to false
                     IsMaximized = false;
                 }
