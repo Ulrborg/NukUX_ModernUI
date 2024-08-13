@@ -11,25 +11,95 @@ using System.Diagnostics.Contracts;
 
 namespace NukUX_ModernUI
 {
+
+    
     public partial class modernForm: UserControl
     {
         private bool IsMaximized;
         private bool isDragging = false; // Boolean to track dragging state
         private Point dragStartPoint = new Point(0, 0); // Store the starting point of the drag
+        private AppStyleMode _appStyleMode;
+        private Timer fadeInTimer;
         public modernForm()
         {
             InitializeComponent();
             this.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             App_Icon.SizeMode = PictureBoxSizeMode.StretchImage;
             IsMaximized = false;
-            // Handle mouse events for dragging the form
             this.MouseDown += App_ControlBar_MouseDown;
             this.MouseMove += App_ControlBar_MouseMove;
             this.MouseUp += App_ControlBar_MouseUp;
             SetFormCenterScreen();
+            AppStyleMode = AppStyleMode.UseDarkMode;
+            fadeInTimer = new Timer();
+            fadeInTimer.Interval = 10;
+            fadeInTimer.Tick += FadeInTimer_Tick;
+        }
+         
+        public FormWindowState WindowState { get; private set; }
+
+        [Category("Appearance")]
+        [Description("Sets the style mode of the form: Dark or Light.")]
+        public AppStyleMode AppStyleMode
+        {
+            get { return _appStyleMode; }
+            set
+            {
+                _appStyleMode = value;
+                ApplyAppStyleMode();
+            }
         }
 
-        public FormWindowState WindowState { get; private set; }
+        [Category("Behavior")]
+        [Description("Enables or disables form showing animation.")]
+        public bool UseFormAnimationShowing { get; set; } = false;
+
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+
+            // Start the fade-in animation if enabled
+            if (UseFormAnimationShowing)
+            {
+                Form parentForm = this.FindForm();
+                if (parentForm != null)
+                {
+                    parentForm.Opacity = 0; // Start with the form completely transparent
+                    fadeInTimer.Start();
+                }
+            }
+        }
+
+        private void FadeInTimer_Tick(object sender, EventArgs e)
+        {
+            Form parentForm = this.FindForm();
+            if (parentForm != null)
+            {
+                // Increase opacity until it reaches 100%
+                if (parentForm.Opacity < 1)
+                {
+                    parentForm.Opacity += 0.05; // Adjust increment for speed of animation
+                }
+                else
+                {
+                    fadeInTimer.Stop(); // Stop the timer once the animation is complete
+                }
+            }
+        }
+
+        private void ApplyAppStyleMode()
+        {
+            if (_appStyleMode == AppStyleMode.UseDarkMode)
+            {
+                this.BackColor = Color.FromArgb(32, 32, 32); // Dark mode background color for modernForm
+                // maybe add more option soon?
+            }
+            else if (_appStyleMode == AppStyleMode.UseLightMode)
+            {
+                this.BackColor = Color.FromArgb(255, 255, 255); // Light mode background color for modernForm
+                // maybe add more option soon?
+            }
+        }
 
         private void SetFormCenterScreen()
         {

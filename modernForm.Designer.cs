@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.App_ControlBar = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
+            this.App_Icon = new System.Windows.Forms.PictureBox();
+            this.App_Minimize = new System.Windows.Forms.Button();
             this.App_Maximize = new System.Windows.Forms.Button();
             this.App_CloseBtn = new System.Windows.Forms.Button();
             this.App_Title = new System.Windows.Forms.Label();
-            this.App_Icon = new System.Windows.Forms.PictureBox();
             this.App_ControlBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.App_Icon)).BeginInit();
             this.SuspendLayout();
@@ -44,7 +44,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.App_ControlBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(36)))));
             this.App_ControlBar.Controls.Add(this.App_Icon);
-            this.App_ControlBar.Controls.Add(this.button3);
+            this.App_ControlBar.Controls.Add(this.App_Minimize);
             this.App_ControlBar.Controls.Add(this.App_Maximize);
             this.App_ControlBar.Controls.Add(this.App_CloseBtn);
             this.App_ControlBar.Controls.Add(this.App_Title);
@@ -56,19 +56,27 @@
             this.App_ControlBar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.App_ControlBar_MouseMove);
             this.App_ControlBar.MouseUp += new System.Windows.Forms.MouseEventHandler(this.App_ControlBar_MouseUp);
             // 
-            // button3
+            // App_Icon
             // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(953, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(49, 36);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "-";
-            this.button3.UseVisualStyleBackColor = true;
+            this.App_Icon.Location = new System.Drawing.Point(12, 9);
+            this.App_Icon.Name = "App_Icon";
+            this.App_Icon.Size = new System.Drawing.Size(24, 24);
+            this.App_Icon.TabIndex = 1;
+            this.App_Icon.TabStop = false;
+            // 
+            // App_Minimize
+            // 
+            this.App_Minimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.App_Minimize.FlatAppearance.BorderSize = 0;
+            this.App_Minimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.App_Minimize.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.App_Minimize.ForeColor = System.Drawing.Color.White;
+            this.App_Minimize.Location = new System.Drawing.Point(953, 3);
+            this.App_Minimize.Name = "App_Minimize";
+            this.App_Minimize.Size = new System.Drawing.Size(49, 36);
+            this.App_Minimize.TabIndex = 3;
+            this.App_Minimize.Text = "-";
+            this.App_Minimize.UseVisualStyleBackColor = true;
             // 
             // App_Maximize
             // 
@@ -111,14 +119,6 @@
             this.App_Title.TabIndex = 0;
             this.App_Title.Text = "Form1";
             // 
-            // App_Icon
-            // 
-            this.App_Icon.Location = new System.Drawing.Point(12, 9);
-            this.App_Icon.Name = "App_Icon";
-            this.App_Icon.Size = new System.Drawing.Size(24, 24);
-            this.App_Icon.TabIndex = 1;
-            this.App_Icon.TabStop = false;
-            // 
             // modernForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -140,7 +140,7 @@
         private System.Windows.Forms.Button App_Maximize;
         private System.Windows.Forms.Button App_CloseBtn;
         private System.Windows.Forms.Label App_Title;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button App_Minimize;
         private System.Windows.Forms.PictureBox App_Icon;
     }
 }
