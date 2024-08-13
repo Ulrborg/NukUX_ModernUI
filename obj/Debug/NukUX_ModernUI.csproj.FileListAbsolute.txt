@@ -1,0 +1,8 @@
+C:\Users\Brad\source\repos\NukUX_ModernUI\bin\Debug\NukUX_ModernUI.dll
+C:\Users\Brad\source\repos\NukUX_ModernUI\bin\Debug\NukUX_ModernUI.pdb
+C:\Users\Brad\source\repos\NukUX_ModernUI\obj\Debug\NukUX_ModernUI.csproj.AssemblyReference.cache
+C:\Users\Brad\source\repos\NukUX_ModernUI\obj\Debug\NukUX_ModernUI.csproj.GenerateResource.cache
+C:\Users\Brad\source\repos\NukUX_ModernUI\obj\Debug\NukUX_ModernUI.csproj.CoreCompileInputs.cache
+C:\Users\Brad\source\repos\NukUX_ModernUI\obj\Debug\NukUX_ModernUI.dll
+C:\Users\Brad\source\repos\NukUX_ModernUI\obj\Debug\NukUX_ModernUI.pdb
+C:\Users\Brad\source\repos\NukUX_ModernUI\obj\Debug\NukUX_ModernUI.modernForm.resources
