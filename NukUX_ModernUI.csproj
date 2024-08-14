@@ -49,6 +49,13 @@
     <Compile Include="modernForm.Designer.cs">
       <DependentUpon>modernForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="modernUI_Button.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="modernUI_MsgBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MsgBoxAction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
