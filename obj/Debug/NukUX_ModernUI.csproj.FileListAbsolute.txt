@@ -6,3 +6,4 @@ C:\Users\Brad\source\repos\NukUX_ModernUI\obj\Debug\NukUX_ModernUI.csproj.CoreCo
 C:\Users\Brad\source\repos\NukUX_ModernUI\obj\Debug\NukUX_ModernUI.dll
 C:\Users\Brad\source\repos\NukUX_ModernUI\obj\Debug\NukUX_ModernUI.pdb
 C:\Users\Brad\source\repos\NukUX_ModernUI\obj\Debug\NukUX_ModernUI.modernForm.resources
+C:\Users\Brad\source\repos\NukUX_ModernUI\obj\Debug\NukUX_ModernUI.ModernProgressBar.resources

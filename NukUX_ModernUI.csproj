@@ -42,27 +42,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplyStyleMode.cs" />
-    <Compile Include="modernForm.cs">
+    <Compile Include="UIElements\ModernProgressBar.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="modernForm.Designer.cs">
+    <Compile Include="UIElements\ModernProgressBar.Designer.cs">
+      <DependentUpon>ModernProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIElements\enumElements\ApplyStyleMode.cs" />
+    <Compile Include="UIElements\enumElements\ProgressBarStyle.cs" />
+    <Compile Include="UIElements\modernForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIElements\modernForm.Designer.cs">
       <DependentUpon>modernForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="modernUI_Button.cs">
+    <Compile Include="UIElements\modernUI_Button.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="modernUI_MsgBox.cs">
+    <Compile Include="UIElements\modernUI_MsgBox.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="MsgBoxAction.cs" />
+    <Compile Include="UIElements\enumElements\MsgBoxAction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="modernForm.resx">
+    <EmbeddedResource Include="UIElements\modernForm.resx">
       <DependentUpon>modernForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UIElements\ModernProgressBar.resx">
+      <DependentUpon>ModernProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="todo.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>todo.txt</LastGenOutput>
+    </Content>
+    <Content Include="todo.txt">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>todo.tt</DependentUpon>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

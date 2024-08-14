@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|c:\\users\\brad\\source\\repos\\nukux_modernui\\modernui_button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|c:\\users\\brad\\source\\repos\\nukux_modernui\\modernprogressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|solutionrelative:modernprogressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|c:\\users\\brad\\source\\repos\\nukux_modernui\\modernprogressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|solutionrelative:modernprogressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|c:\\users\\brad\\source\\repos\\nukux_modernui\\modernui_button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|solutionrelative:modernui_button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernui_button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|solutionrelative:modernui_button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,11 +23,11 @@
       "RelativeMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|solutionrelative:modernui_msgbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|c:\\users\\brad\\source\\repos\\nukux_modernui\\msgboxaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\msgboxaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|solutionrelative:msgboxaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|c:\\users\\brad\\source\\repos\\nukux_modernui\\modernform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{141B0BDA-A0A8-4348-93C4-5D378D7F42B2}|NukUX_ModernUI.csproj|solutionrelative:modernform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -45,11 +57,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModernProgressBar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\ModernProgressBar.cs",
+              "RelativeDocumentMoniker": "ModernProgressBar.cs",
+              "ToolTip": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\ModernProgressBar.cs [Design]",
+              "RelativeToolTip": "ModernProgressBar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T14:21:39.024Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "modernUI_Button.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernUI_Button.cs",
+              "RelativeDocumentMoniker": "modernUI_Button.cs",
+              "ToolTip": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernUI_Button.cs [Design]",
+              "RelativeToolTip": "modernUI_Button.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T14:18:42.223Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModernProgressBar.cs",
+              "DocumentMoniker": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\ModernProgressBar.cs",
+              "RelativeDocumentMoniker": "ModernProgressBar.cs",
+              "ToolTip": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\ModernProgressBar.cs",
+              "RelativeToolTip": "ModernProgressBar.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAiwDgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T14:16:13.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "modernUI_MsgBox.cs",
+              "DocumentMoniker": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernUI_MsgBox.cs",
+              "RelativeDocumentMoniker": "modernUI_MsgBox.cs",
+              "ToolTip": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernUI_MsgBox.cs",
+              "RelativeToolTip": "modernUI_MsgBox.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowG0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T00:25:35.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MsgBoxAction.cs",
               "DocumentMoniker": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\MsgBoxAction.cs",
               "RelativeDocumentMoniker": "MsgBoxAction.cs",
@@ -57,38 +123,24 @@
               "RelativeToolTip": "MsgBoxAction.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T00:25:58.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T00:25:58.592Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "modernUI_MsgBox.cs",
-              "DocumentMoniker": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernUI_MsgBox.cs",
-              "RelativeDocumentMoniker": "modernUI_MsgBox.cs",
-              "ToolTip": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernUI_MsgBox.cs",
-              "RelativeToolTip": "modernUI_MsgBox.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAIwAwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T00:25:35.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "modernUI_Button.cs",
               "DocumentMoniker": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernUI_Button.cs",
               "RelativeDocumentMoniker": "modernUI_Button.cs",
               "ToolTip": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernUI_Button.cs",
               "RelativeToolTip": "modernUI_Button.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCEAAAAhAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAowCEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T00:06:38.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "modernForm.cs",
               "DocumentMoniker": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernForm.cs",
               "RelativeDocumentMoniker": "modernForm.cs",
@@ -96,12 +148,11 @@
               "RelativeToolTip": "modernForm.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAQwAsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T21:39:16.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T21:39:16.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ApplyStyleMode.cs",
               "DocumentMoniker": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\ApplyStyleMode.cs",
               "RelativeDocumentMoniker": "ApplyStyleMode.cs",
@@ -113,23 +164,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "modernForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernForm.cs",
               "RelativeDocumentMoniker": "modernForm.cs",
               "ToolTip": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernForm.cs [Design]",
               "RelativeToolTip": "modernForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T21:28:33.33Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-08-13T21:28:33.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "modernForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\modernForm.Designer.cs",
               "RelativeDocumentMoniker": "modernForm.Designer.cs",
@@ -137,12 +183,11 @@
               "RelativeToolTip": "modernForm.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T21:52:18.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T21:52:18.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
@@ -154,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "NukUX_ModernUI",
               "DocumentMoniker": "C:\\Users\\Brad\\source\\repos\\NukUX_ModernUI\\NukUX_ModernUI.csproj",
               "RelativeDocumentMoniker": "NukUX_ModernUI.csproj",
